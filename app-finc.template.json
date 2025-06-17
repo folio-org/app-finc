@@ -1,0 +1,36 @@
+{
+    "name": "${project.name}",
+    "version": "${project.version}",
+    "description": "${project.description}",
+    "platform": "complete",
+    "dependencies": [
+      {
+        "name": "app-acquisitions",
+        "version": "^1.0.0-SNAPSHOT"
+      }
+    ],
+    "modules": [
+      {
+        "name": "mod-finc-config",
+        "version": "latest"
+      }
+    ],
+    "uiModules": [
+      {
+        "name": "folio_finc-config",
+        "version": "latest"
+      },
+      {
+        "name": "folio_finc-select",
+        "version": "latest"
+      },
+      {
+        "name": "folio_plugin-find-finc-metadata-collection",
+        "version": "latest"
+      },
+      {
+        "name": "folio_plugin-find-finc-metadata-source",
+        "version": "latest"
+      }
+    ]
+  }
