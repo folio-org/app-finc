@@ -1,0 +1,11 @@
+name: 'Test Workflow Appearing Based on Push Event'
+on:
+  push:
+    branches: [RANCHER-2358]
+  workflow_dispatch:
+jobs:
+  main-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Branch related echo'
+        run: echo "This is the echo command in branch ${{ github.ref_name }} and resides in the RANCHER-2358 branch"
