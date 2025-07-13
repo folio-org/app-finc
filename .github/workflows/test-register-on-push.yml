@@ -1,7 +1,7 @@
 name: 'Test Workflow Appearing Based on Push Event'
 on:
   push:
-    branches: [RANCHER-2358]
+    branches: [ RANCHER-2358 ]
   workflow_dispatch:
 jobs:
   main-flow:
