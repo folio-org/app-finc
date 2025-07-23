@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Branch related echo'
-        run: echo "This is the echo command in branch ${{ github.ref_name }} and resides in the RANCHER-2358 branch"
+        run: echo "This is the echo command in branch ${{ github.ref_name }}"
