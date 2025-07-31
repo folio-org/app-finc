@@ -1,9 +1,0 @@
-name: 'Test Branch Workflow'
-on:
-  workflow_dispatch:
-jobs:
-  main-flow:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Branch related echo'
-        run: echo "This is the echo command in branch ${{ github.ref_name }}"
