@@ -1,0 +1,36 @@
+{
+  "name": "app-finc",
+  "version": "1.1.0-SNAPSHOT.1000",
+  "description": "Application descriptor for the FOLIO finc application",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-acquisitions",
+      "version": "^1.2.0-SNAPSHOT"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-finc-config",
+      "version": "7.0.0-SNAPSHOT.169"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_finc-config",
+      "version": "8.0.109900000000190"
+    },
+    {
+      "name": "folio_finc-select",
+      "version": "8.0.109900000000243"
+    },
+    {
+      "name": "folio_plugin-find-finc-metadata-collection",
+      "version": "8.0.109900000000117"
+    },
+    {
+      "name": "folio_plugin-find-finc-metadata-source",
+      "version": "8.0.10990000000086"
+    }
+  ]
+}
