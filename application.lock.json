@@ -1,6 +1,6 @@
 {
   "name": "app-finc",
-  "version": "1.1.0-SNAPSHOT.100200000000505",
+  "version": "1.1.0-SNAPSHOT.100200000000506",
   "description": "Application descriptor for the FOLIO finc application",
   "platform": "complete",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_finc-config",
-      "version": "8.0.1099000000000234"
+      "version": "8.0.1099000000000319"
     },
     {
       "name": "folio_finc-select",
