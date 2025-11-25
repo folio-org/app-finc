@@ -1,6 +1,6 @@
 {
   "name": "app-finc",
-  "version": "1.1.0-SNAPSHOT.100200000001059",
+  "version": "1.1.0-SNAPSHOT.100200000001338",
   "description": "Application descriptor for the FOLIO finc application",
   "platform": "complete",
   "dependencies": [
@@ -22,7 +22,7 @@
     },
     {
       "name": "folio_finc-select",
-      "version": "8.1.1099000000000322"
+      "version": "8.1.1099000000000327"
     },
     {
       "name": "folio_plugin-find-finc-metadata-collection",
