@@ -1,7 +1,7 @@
 {
-  "id" : "app-finc-1.1.0-SNAPSHOT.100200000011736",
+  "id" : "app-finc-1.1.0-SNAPSHOT.100200000011743",
   "name" : "app-finc",
-  "version" : "1.1.0-SNAPSHOT.100200000011736",
+  "version" : "1.1.0-SNAPSHOT.100200000011743",
   "description" : "Application descriptor for the FOLIO finc application",
   "modules" : [ {
     "id" : "mod-finc-config-7.1.0-SNAPSHOT.2023",
@@ -9,9 +9,9 @@
     "version" : "7.1.0-SNAPSHOT.2023"
   } ],
   "uiModules" : [ {
-    "id" : "folio_finc-config-8.1.1099000000000624",
+    "id" : "folio_finc-config-8.1.1099000000000627",
     "name" : "folio_finc-config",
-    "version" : "8.1.1099000000000624"
+    "version" : "8.1.1099000000000627"
   }, {
     "id" : "folio_finc-select-8.2.1099000000000516",
     "name" : "folio_finc-select",
@@ -582,7 +582,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_finc-config-8.1.1099000000000624",
+    "id" : "folio_finc-config-8.1.1099000000000627",
     "name" : "Index configuration of finc catalogues",
     "requires" : [ {
       "id" : "finc-config-metadata-sources",
@@ -658,17 +658,17 @@
     } ],
     "metadata" : {
       "stripes" : {
-        "home" : "/finc-config/metadata-sources?filters=status.active,status.implementation",
-        "icons" : [ {
-          "alt" : "FINC config",
-          "name" : "app",
-          "title" : "fincConfig"
-        } ],
-        "route" : "/finc-config",
         "actsAs" : [ "app", "settings" ],
         "displayName" : "ui-finc-config.meta.title",
+        "route" : "/finc-config",
+        "home" : "/finc-config/metadata-sources?filters=status.active,status.implementation",
+        "queryResource" : "query",
         "stripesDeps" : [ "@folio/stripes-leipzig-components" ],
-        "queryResource" : "query"
+        "icons" : [ {
+          "name" : "app",
+          "alt" : "FINC config",
+          "title" : "fincConfig"
+        } ]
       }
     }
   }, {
